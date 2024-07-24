@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Decorator", "01_ِDecorator\01_Decorator.csproj", "{092A7255-3A54-4D28-BF79-A6D601E69F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_01_Decorator", "01_01_Decorator\01_01_Decorator.csproj", "{261A18CB-EA30-4E1E-82F3-2D2B791DF519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_02_Decorator", "01_02_Decorator\01_02_Decorator.csproj", "{B6BD84EB-0649-4B2D-AC47-D9B25458EB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B3262BDC-B371-4937-987E-14BEE6332793}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Pictures\images.jfif = ..\..\..\Pictures\images.jfif
+		..\..\..\Pictures\images.png = ..\..\..\Pictures\images.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{FEE63514-8C46-4CB9-8BDD-BADB05A3FCF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Facade", "02_Facade\02_Facade.csproj", "{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092A7255-3A54-4D28-BF79-A6D601E69F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092A7255-3A54-4D28-BF79-A6D601E69F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092A7255-3A54-4D28-BF79-A6D601E69F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092A7255-3A54-4D28-BF79-A6D601E69F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261A18CB-EA30-4E1E-82F3-2D2B791DF519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261A18CB-EA30-4E1E-82F3-2D2B791DF519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261A18CB-EA30-4E1E-82F3-2D2B791DF519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261A18CB-EA30-4E1E-82F3-2D2B791DF519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BD84EB-0649-4B2D-AC47-D9B25458EB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BD84EB-0649-4B2D-AC47-D9B25458EB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BD84EB-0649-4B2D-AC47-D9B25458EB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BD84EB-0649-4B2D-AC47-D9B25458EB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{092A7255-3A54-4D28-BF79-A6D601E69F00} = {B3262BDC-B371-4937-987E-14BEE6332793}
+		{261A18CB-EA30-4E1E-82F3-2D2B791DF519} = {B3262BDC-B371-4937-987E-14BEE6332793}
+		{B6BD84EB-0649-4B2D-AC47-D9B25458EB44} = {B3262BDC-B371-4937-987E-14BEE6332793}
+		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4} = {FEE63514-8C46-4CB9-8BDD-BADB05A3FCF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AB84939-5FF8-43A3-9D50-A91810E55439}
+	EndGlobalSection
+EndGlobal
