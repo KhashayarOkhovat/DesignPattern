@@ -1,9 +1,4 @@
 ﻿using _01_03_Bridge.Implementor;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01_03_Bridge.Abstraction
 {
@@ -14,10 +9,7 @@ namespace _01_03_Bridge.Abstraction
         {
             _color = color;
         }
-        public void ShapeColoring()
-        {
-            _color.Drew();
-        }
+        public abstract void ShapeColoring();
     }
     public class Circle : Shape
     {
@@ -25,12 +17,22 @@ namespace _01_03_Bridge.Abstraction
         {
 
         }
+
+        public override void ShapeColoring()
+        {
+            Console.WriteLine($"Circle {_color.Drew()}");
+        }
     }
     public class Square : Shape
     {
         public Square(Color color) : base(color)
         {
 
+        }
+
+        public override void ShapeColoring()
+        {
+            Console.WriteLine($"Square {_color.Drew()}");
         }
     }
 }

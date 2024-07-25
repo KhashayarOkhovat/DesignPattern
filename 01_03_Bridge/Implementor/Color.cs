@@ -1,27 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01_03_Bridge.Implementor
+﻿namespace _01_03_Bridge.Implementor
 {
     public abstract class Color
     {
-        public abstract void Drew();
+        public abstract string Drew();
     }
     public class Blue : Color
     {
-        public override void Drew()
+        public override string Drew()
         {
-            Console.WriteLine("Is Blue");
+            var result = "Is Blue";
+            return result;
         }
     }
     public class Red : Color
     {
-        public override void Drew()
+        public override string Drew()
         {
-            Console.WriteLine("Is Red");
+            var result = "Is Red";
+            return result;
         }
     }
 }
