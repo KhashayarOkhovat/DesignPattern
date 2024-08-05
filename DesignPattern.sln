@@ -11,8 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_02_Decorator", "01_02_De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B3262BDC-B371-4937-987E-14BEE6332793}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Pictures\images.jfif = ..\..\..\Pictures\images.jfif
-		..\..\..\Pictures\images.png = ..\..\..\Pictures\images.png
+		..\..\Pictures\images.jfif = ..\..\Pictures\images.jfif
+		..\..\Pictures\images.png = ..\..\Pictures\images.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{FEE63514-8C46-4CB9-8BDD-BADB05A3FCF5}"
@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Facade", "02_Facade\02_F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{6C1C789E-7943-4FDB-81B3-C73E79AE1610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Bridge", "03_Bridge\03_Bridge.csproj", "{A05CC081-BC57-4C9F-804B-307BBF3E5765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Bridge", "03_Bridge\03_Bridge.csproj", "{A05CC081-BC57-4C9F-804B-307BBF3E5765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_03_Bridge", "01_03_Bridge\01_03_Bridge.csproj", "{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_03_Bridge", "01_03_Bridge\01_03_Bridge.csproj", "{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{7FF0EF98-0728-4CB6-AAA4-C264F3F06D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Adapter", "04_Adapter\04_Adapter.csproj", "{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +74,7 @@ Global
 		{B03D6E06-7B0F-4C98-8B00-21F2C60FCAF4} = {FEE63514-8C46-4CB9-8BDD-BADB05A3FCF5}
 		{A05CC081-BC57-4C9F-804B-307BBF3E5765} = {6C1C789E-7943-4FDB-81B3-C73E79AE1610}
 		{56AB7ABD-72D1-4A95-9318-C3D5EF458ECD} = {6C1C789E-7943-4FDB-81B3-C73E79AE1610}
+		{A09DAA5B-7AA5-404F-A8CB-85B723F1BCF7} = {7FF0EF98-0728-4CB6-AAA4-C264F3F06D55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AB84939-5FF8-43A3-9D50-A91810E55439}
