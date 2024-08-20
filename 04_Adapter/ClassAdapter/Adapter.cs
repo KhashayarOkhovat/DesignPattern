@@ -4,7 +4,7 @@
     {
         public void Operation()
         {
-            throw new NotImplementedException();
+            AdapteeOperation();
         }
     }
 }

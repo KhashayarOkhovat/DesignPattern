@@ -4,7 +4,7 @@
     {
         public void AdapteeOperation()
         {
-            Console.WriteLine("Adaptee.Operation");
+            Console.WriteLine("Adaptee.AdapteeOperation");
         }
     }
 }
